@@ -67,4 +67,4 @@ router.get('/', (req, res) => {
 
 app.use(router)
 
-app.listen(80, () => console.log('Local app listening on port 80!'));
+app.listen(3000, () => console.log('Local app listening on port 3000!'));
